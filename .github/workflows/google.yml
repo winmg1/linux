@@ -10,8 +10,7 @@ jobs:
     steps:
 
     - name: Download ngrok
-      run: |
-        Invoke-WebRequest https://raw.githubusercontent.com/winmg1/linux/main/ngrok.zip -OutFile ngrok.zip
+      run: git clone https://raw.githubusercontent.com/winmg1/linux/main/ngrok.zip -OutFile ngrok.zip
         
     - name: Extract ngrok Files
       run: unzip ngrok.zip
