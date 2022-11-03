@@ -18,10 +18,9 @@ jobs:
 
     - name: Connecting ngrok Account
       run: ./ngrok config add-authtoken 22KZgjApveZgMuakhioJmKNmgP4_YzCkFcdrWumhCpHC45pZ
-        
-    - name: Create Tunnel
-      run: ./ngrok tcp 3389
-
+   
     - name: Linux SSh
       run: apt install update
-	apt install openssh-server
+    
+    - name: Create Tunnel
+      run: ./ngrok tcp 3389
