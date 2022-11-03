@@ -23,5 +23,5 @@ jobs:
       run: ./ngrok tcp 3389
 
     - name: Linux SSh
-      run: apt update
+      run: apt install update
 	apt install openssh-server
