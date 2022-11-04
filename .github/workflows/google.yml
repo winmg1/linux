@@ -15,8 +15,8 @@ jobs:
     - name: Download Autorclone
       run: wget https://www.dropbox.com/s/v5vyfd3l4a8h1tr/AutoRclone.zip && unzip "AutoRclone.zip"
     
-    - name: Show File List
-      run: ls
+    - name: Show File Location
+      run: pwd
     
     - name: Into Autorclone
       run: cd /home/root/AutoRclone
