@@ -17,6 +17,9 @@ jobs:
     
     - name: Show File Location
       run: pwd
+      
+    - name: Find File Location
+      run: find ./ -name AutoRclone.zip
     
     - name: Into Autorclone
       run: cd /home/runner/work/linux/linux/AutoRclone
