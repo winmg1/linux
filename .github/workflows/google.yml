@@ -19,7 +19,7 @@ jobs:
       run: pwd
     
     - name: Into Autorclone
-      run: cd /home/root/AutoRclone
+      run: cd /home/runner/work/linux/linux/AutoRclone
       
     - name: Show File List
       run: ls
