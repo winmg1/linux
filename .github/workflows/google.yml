@@ -24,7 +24,7 @@ jobs:
     - name: Into Autorclone
       working-directory: ./AutoRclone
       run: |
-          cd ./AutoRclone
+          pwd
               
     - name: Show File List
       run: ls
