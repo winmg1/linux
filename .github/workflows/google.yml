@@ -25,5 +25,5 @@ jobs:
       working-directory: ./AutoRclone
       run: |
           pwd
-          python3 rclone_sa_magic.py -s 0AIKstA9CskDFUk9PVA -d 0ADtpZRykFlKtUk9PVA -b 230 -e 400
+          python3 rclone_sa_magic.py -s 0AIKstA9CskDFUk9PVA -d 0ADtpZRykFlKtUk9PVA -b 255 -e 400
                 
