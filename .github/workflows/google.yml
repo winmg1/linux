@@ -22,7 +22,7 @@ jobs:
       run: find ./ -name AutoRclone.zip
     
     - name: Into Autorclone
-      run: cd ./AutoRclone
+      working-directory: ./AutoRclone
       
     - name: Show File List
       run: ls
