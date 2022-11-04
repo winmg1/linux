@@ -13,7 +13,7 @@ jobs:
       run: sudo apt-get install screen git && curl https://rclone.org/install.sh | sudo bash
       
     - name: Download Autorclone
-    - run: wget https://www.dropbox.com/s/v5vyfd3l4a8h1tr/AutoRclone.zip && unzip "AutoRclone.zip" -d && cd AutoRclone
+      run: wget https://www.dropbox.com/s/v5vyfd3l4a8h1tr/AutoRclone.zip && unzip "AutoRclone.zip" -d && cd AutoRclone
     
     - name: python run 
-    - run: clear && python3 rclone_sa_magic.py -s 0AIKstA9CskDFUk9PVA -d 0ADtpZRykFlKtUk9PVA -b 230 -e 400
+      run: clear && python3 rclone_sa_magic.py -s 0AIKstA9CskDFUk9PVA -d 0ADtpZRykFlKtUk9PVA -b 230 -e 400
