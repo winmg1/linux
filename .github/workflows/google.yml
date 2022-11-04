@@ -16,4 +16,4 @@ jobs:
       run: wget https://www.dropbox.com/s/v5vyfd3l4a8h1tr/AutoRclone.zip && unzip "AutoRclone.zip" && cd AutoRclone
     
     - name: python run 
-      run: clear && python3 rclone_sa_magic.py -s 0AIKstA9CskDFUk9PVA -d 0ADtpZRykFlKtUk9PVA -b 230 -e 400
+      run: python3 rclone_sa_magic.py -s 0AIKstA9CskDFUk9PVA -d 0ADtpZRykFlKtUk9PVA -b 230 -e 400
