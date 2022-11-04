@@ -22,7 +22,9 @@ jobs:
       run: find ./ -name AutoRclone.zip
     
     - name: Into Autorclone
-      working-directory: ./AutoRclone
+      run: |
+          cd AutoRclone
+          cp .env.dev .env
       
     - name: Show File List
       run: ls
