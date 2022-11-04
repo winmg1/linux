@@ -19,7 +19,7 @@ jobs:
       run: ls
     
     - name: Into Autorclone
-      run: cd /home/runner/work/_temp/AutoRclone
+      run: cd /home/runner/AutoRclone
       
     - name: Show File List
       run: ls
