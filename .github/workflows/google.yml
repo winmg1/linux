@@ -15,8 +15,14 @@ jobs:
     - name: Download Autorclone
       run: wget https://www.dropbox.com/s/v5vyfd3l4a8h1tr/AutoRclone.zip && unzip "AutoRclone.zip"
     
+    - name: Show File List
+      run: ls
+    
     - name: Into Autorclone
       run: cd AutoRclone
+      
+    - name: Show File List
+      run: ls
     
     - name: python run 
-      run: python3 /AutoRclone/rclone_sa_magic.py -s 0AIKstA9CskDFUk9PVA -d 0ADtpZRykFlKtUk9PVA -b 230 -e 400
+      run: python3 rclone_sa_magic.py -s 0AIKstA9CskDFUk9PVA -d 0ADtpZRykFlKtUk9PVA -b 230 -e 400
